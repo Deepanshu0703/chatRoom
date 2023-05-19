@@ -11,12 +11,12 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA9ty1o9zNKtP8wLsMrAJAh9mqBDJxVutg",
-  authDomain: "chat-room-2b4f7.firebaseapp.com",
-  projectId: "chat-room-2b4f7",
-  storageBucket: "chat-room-2b4f7.appspot.com",
-  messagingSenderId: "1095926371627",
-  appId: "1:1095926371627:web:ba940703be371e7ace616e"
+    apiKey: "Your apiKey",
+  authDomain: "Your autDomain",
+  projectId: "Your projectId",
+  storageBucket: "Your storageBucket",
+  messagingSenderId: "Your messagingSenderId",
+  appId: 'Your appId'
 };
 
 const app = initializeApp(firebaseConfig);
